@@ -6,7 +6,7 @@
 }
 body
     {
-        background-image: url('../assets/img/bleu-ou-rouge.jpg');
+        background-image: url("/assets/img/bleu-ou-rouge.jpg");
     }
 header h1
     {
