@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap'); 
+
+*
+{
+    font-family: "Wallpoet";
+}
+body
+    {
+        background-image: url('/assets/img/bleu-ou-rouge.jpg');
+    }
+header h1
+    {
+        font-size: 5rem;
+        text-align: center;
+        letter-spacing: 1rem;
+        background-image: linear-gradient(45deg, #c71212, #131396);
+        background-size: 100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        margin-bottom: 0;  
+    }
+header p
+    {
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+header input
+    {
+        display: flex;
+        text-align: center;
+        margin-top: 4rem;
+        height: 5vh;
+        width: 25vw;
+        border-radius: 2rem;
+    }
+/* header section
+    {
+        display: flex;
+        flex-direction: column;
+    } */
+main
+    {
+        display: flex;
+    }
+.partierouge
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 14rem;
+        margin-top: 9rem;
+    }
+.partiebleu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 12rem;
+        margin-top: 10rem;
+    }
+#rouge
+    {
+        width: 5.5rem;
+        height: 3rem;
+        /* border: solid white; */
+        cursor: grab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+#bleu 
+    {
+        width: 6rem;
+        height: 3rem;
+        /* border: solid white; */
+        cursor: grab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+#afficher
+    {
+        width: 20vw;
+        height: 15vh;
+        /* border: solid white 0.2rem;
+        border-radius: 3rem; */
+        padding: 1rem;
+        color: white;
+    }
+#afficher1
+    {
+        width: 20vw;
+        height: 15vh;
+        /* border: solid white 0.2rem;
+        border-radius: 3rem; */
+        padding: 1rem;
+        color: white;
+    }
+#choix
+    {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.8rem;
+
+    }
+section
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
